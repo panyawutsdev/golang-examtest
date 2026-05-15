@@ -1,0 +1,23 @@
+# Claude Code
+.claude/
+
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go build output
+*/worker-pool
+*/safe-counter
+*/shapes
+*/two-sum
+*/http-handler
+
+# Go test cache
+*.test
+
+# Go workspace
+go.work
+go.work.sum
